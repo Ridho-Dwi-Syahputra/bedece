@@ -1,0 +1,35 @@
+# Documentation (internal only, never shipped)
+docs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Data & artifacts (never committed — too large / regenerated on Kaggle)
+data/
+raw/
+processed/
+test/
+*.jpg
+*.jpeg
+*.png
+
+# Model weights & checkpoints
+*.ckpt
+*.pt
+*.pth
+
+# Logs & working outputs
+*.log
+model/**/working/
+model/**/outputs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
